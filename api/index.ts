@@ -1,9 +1,6 @@
 // Core
 import { Buffer } from 'node:buffer';
 
-// Packages
-import dotenv from "dotenv-safe";
-
 // Types
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import { Verify } from "crypto";
@@ -33,9 +30,6 @@ type File = {
 	name: string;
 	path: string;
 }
-
-// Set up env
-dotenv.config();
 
 export default function (req: VercelRequest, res: VercelResponse) {
 	if (req.method == "GET") return get(req, res);
