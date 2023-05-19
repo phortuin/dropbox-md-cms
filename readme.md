@@ -12,7 +12,7 @@ $ nvm use
 
 ## Development
 
-Install dependencies and run with Vercel (make sure you have an account and this repo is linked to a project):
+Create an app on Dropbox with App folder access only, generate an access token and put that in `.env`. Then install dependencies and run with Vercel (make sure you have an account and this repo is linked to a project):
 
 ```
 $ npm ci
