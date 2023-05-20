@@ -12,7 +12,7 @@ $ nvm use
 
 ## Development
 
-Create an app on Dropbox with App folder access only, generate an access token and put that in `.env`<sup>[1](#fn1)</sup>. Then install dependencies and run with Vercel (make sure you have an account and this repo is linked to a project):
+Create an app on Dropbox with App folder access only, generate an access token<sup>[1](#fn1)</sup> and put that in `.env`. Then install dependencies and run with Vercel (make sure you have an account and this repo is linked to a project):
 
 ```
 $ npm ci
@@ -28,7 +28,7 @@ $ npx vercel dev
 
 ## Todo
 
--[ ] Implement Dropbox oAuth flow
+- [ ] Implement Dropbox oAuth flow
 
 ## Notes
 
